@@ -1,0 +1,144 @@
+[debug] [2023-09-03T13:22:54.889Z] ----------------------------------------------------------------------
+[debug] [2023-09-03T13:22:54.891Z] Command:       C:\Users\himanshu.f.mishra\AppData\Local\fnm_multishells\13516_1693734901664\node.exe C:\Users\himanshu.f.mishra\AppData\Local\fnm_multishells\13516_1693734901664\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2023-09-03T13:22:54.891Z] CLI Version:   12.5.2
+[debug] [2023-09-03T13:22:54.891Z] Platform:      win32
+[debug] [2023-09-03T13:22:54.892Z] Node Version:  v18.15.0
+[debug] [2023-09-03T13:22:54.893Z] Time:          Sun Sep 03 2023 22:22:54 GMT+0900 (Japan Standard Time)
+[debug] [2023-09-03T13:22:54.893Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-09-03T13:22:54.919Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-09-03T13:22:54.919Z] > authorizing via signed-in user (himanshum4444@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\himanshu.f.mishra\OneDrive - Accenture\Desktop\personal\Projects\NodeProject\UdemyProject\ReactFrontend\build
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] i  If you want to create a project in a Google Cloud organization or folder, please use "firebase projects:create" instead, and return to this command when you've created the project. 
+[debug] [2023-09-03T13:23:32.951Z] > refreshing access token with scopes: []
+[debug] [2023-09-03T13:23:32.954Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2023-09-03T13:23:32.954Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2023-09-03T13:23:33.409Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2023-09-03T13:23:33.409Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2023-09-03T13:23:33.436Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects [none]
+[debug] [2023-09-03T13:23:33.436Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects {"projectId":"node-mern","name":"node-mern"}
+[debug] [2023-09-03T13:23:35.100Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects 409
+[debug] [2023-09-03T13:23:35.100Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects {"error":{"code":409,"message":"Requested entity already exists","status":"ALREADY_EXISTS"}}
+[debug] [2023-09-03T13:23:35.481Z] FirebaseError: HTTP Error: 409, Requested entity already exists
+    at responseToError (C:\Users\himanshu.f.mishra\AppData\Roaming\fnm\node-versions\v18.15.0\installation\node_modules\firebase-tools\lib\responseToError.js:49:12)
+    at RetryOperation._fn (C:\Users\himanshu.f.mishra\AppData\Roaming\fnm\node-versions\v18.15.0\installation\node_modules\firebase-tools\lib\apiv2.js:285:77)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[error] 
+[error] Error: Failed to create project because there is already a project with ID node-mern. Please try again with a unique project ID.
+[debug] [2023-09-03T13:24:57.248Z] ----------------------------------------------------------------------
+[debug] [2023-09-03T13:24:57.249Z] Command:       C:\Users\himanshu.f.mishra\AppData\Local\fnm_multishells\13516_1693734901664\node.exe C:\Users\himanshu.f.mishra\AppData\Local\fnm_multishells\13516_1693734901664\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2023-09-03T13:24:57.250Z] CLI Version:   12.5.2
+[debug] [2023-09-03T13:24:57.250Z] Platform:      win32
+[debug] [2023-09-03T13:24:57.250Z] Node Version:  v18.15.0
+[debug] [2023-09-03T13:24:57.251Z] Time:          Sun Sep 03 2023 22:24:57 GMT+0900 (Japan Standard Time)
+[debug] [2023-09-03T13:24:57.251Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-09-03T13:24:57.280Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-09-03T13:24:57.280Z] > authorizing via signed-in user (himanshum4444@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\himanshu.f.mishra\OneDrive - Accenture\Desktop\personal\Projects\NodeProject\UdemyProject\ReactFrontend\build
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] i  If you want to create a project in a Google Cloud organization or folder, please use "firebase projects:create" instead, and return to this command when you've created the project. 
+[debug] [2023-09-03T13:25:39.644Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects [none]
+[debug] [2023-09-03T13:25:39.644Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects {"projectId":"project","name":"node-frontend"}
+[debug] [2023-09-03T13:25:41.314Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects 409
+[debug] [2023-09-03T13:25:41.314Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects {"error":{"code":409,"message":"Requested entity already exists","status":"ALREADY_EXISTS"}}
+[debug] [2023-09-03T13:25:41.500Z] FirebaseError: HTTP Error: 409, Requested entity already exists
+    at responseToError (C:\Users\himanshu.f.mishra\AppData\Roaming\fnm\node-versions\v18.15.0\installation\node_modules\firebase-tools\lib\responseToError.js:49:12)
+    at RetryOperation._fn (C:\Users\himanshu.f.mishra\AppData\Roaming\fnm\node-versions\v18.15.0\installation\node_modules\firebase-tools\lib\apiv2.js:285:77)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[error] 
+[error] Error: Failed to create project because there is already a project with ID project. Please try again with a unique project ID.
+[debug] [2023-09-03T13:26:56.123Z] ----------------------------------------------------------------------
+[debug] [2023-09-03T13:26:56.124Z] Command:       C:\Users\himanshu.f.mishra\AppData\Local\fnm_multishells\13516_1693734901664\node.exe C:\Users\himanshu.f.mishra\AppData\Local\fnm_multishells\13516_1693734901664\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2023-09-03T13:26:56.125Z] CLI Version:   12.5.2
+[debug] [2023-09-03T13:26:56.125Z] Platform:      win32
+[debug] [2023-09-03T13:26:56.125Z] Node Version:  v18.15.0
+[debug] [2023-09-03T13:26:56.126Z] Time:          Sun Sep 03 2023 22:26:56 GMT+0900 (Japan Standard Time)
+[debug] [2023-09-03T13:26:56.126Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-09-03T13:26:56.155Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-09-03T13:26:56.155Z] > authorizing via signed-in user (himanshum4444@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\himanshu.f.mishra\OneDrive - Accenture\Desktop\personal\Projects\NodeProject\UdemyProject\ReactFrontend\build
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2023-09-03T13:28:00.177Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2023-09-03T13:28:01.179Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
+[debug] [2023-09-03T13:28:01.179Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[info] i  Using project jnvbanda (jnvbanda) 
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[debug] [2023-09-03T13:28:38.250Z] >>> [apiv2][query] GET https://www.gstatic.com/firebasejs/releases.json [none]
+[debug] [2023-09-03T13:28:38.604Z] <<< [apiv2][status] GET https://www.gstatic.com/firebasejs/releases.json 200
+[debug] [2023-09-03T13:28:38.604Z] <<< [apiv2][body] GET https://www.gstatic.com/firebasejs/releases.json {"current":{"version":"10.3.1","browserURL":"https://www.gstatic.com/firebasejs/10.3.1/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/10.3.1/firebase.tgz"},"live":{"version":"10.3","browserURL":"https://www.gstatic.com/firebasejs/live/10.3/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/live/10.3/firebase.tgz"},"components":{"analytics":"https://www.gstatic.com/firebasejs/10.3.1/firebase-analytics.js","app":"https://www.gstatic.com/firebasejs/10.3.1/firebase-app.js","app-check":"https://www.gstatic.com/firebasejs/10.3.1/firebase-app-check.js","auth":"https://www.gstatic.com/firebasejs/10.3.1/firebase-auth.js","auth/cordova":"https://www.gstatic.com/firebasejs/10.3.1/firebase-auth/cordova.js","functions":"https://www.gstatic.com/firebasejs/10.3.1/firebase-functions.js","firestore":"https://www.gstatic.com/firebasejs/10.3.1/firebase-firestore.js","firestore/lite":"https://www.gstatic.com/firebasejs/10.3.1/firebase-firestore/lite.js","installations":"https://www.gstatic.com/firebasejs/10.3.1/firebase-installations.js","storage":"https://www.gstatic.com/firebasejs/10.3.1/firebase-storage.js","performance":"https://www.gstatic.com/firebasejs/10.3.1/firebase-performance.js","remote-config":"https://www.gstatic.com/firebasejs/10.3.1/firebase-remote-config.js","messaging":"https://www.gstatic.com/firebasejs/10.3.1/firebase-messaging.js","messaging/sw":"https://www.gstatic.com/firebasejs/10.3.1/firebase-messaging/sw.js","database":"https://www.gstatic.com/firebasejs/10.3.1/firebase-database.js","firestore.memory":"https://www.gstatic.com/firebasejs/10.3.1/firebase-firestore.memory.js"}}
+[info] +  Wrote build/index.html 
+[info] 
+[info] i  Detected a .git folder at C:\Users\himanshu.f.mishra\OneDrive - Accenture\Desktop\personal\Projects\NodeProject\UdemyProject\ReactFrontend 
+[info] i  Authorizing with GitHub to upload your service account to a GitHub repository's secrets store. 
+[info] 
+[info] Visit this URL on this device to log in:
+[info] https://github.com/login/oauth/authorize?client_id=89cf50f02ac6aaed3484&state=16894362&redirect_uri=http%3A%2F%2Flocalhost%3A9005&scope=read%3Auser%20repo%20public_repo
+[info] 
+[info] Waiting for authentication...
+[debug] [2023-09-03T13:28:40.235Z] >>> [apiv2][query] POST https://github.com/login/oauth/access_token [none]
+[debug] [2023-09-03T13:28:40.235Z] >>> [apiv2][body] POST https://github.com/login/oauth/access_token [stream]
+[debug] [2023-09-03T13:28:40.827Z] <<< [apiv2][status] POST https://github.com/login/oauth/access_token 200
+[debug] [2023-09-03T13:28:40.827Z] <<< [apiv2][body] POST https://github.com/login/oauth/access_token {"access_token":"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","token_type":"bearer","scope":"read:user,repo"}
+[debug] [2023-09-03T13:28:40.846Z] >>> [apiv2][query] GET https://api.github.com/user [none]
+[debug] [2023-09-03T13:28:41.469Z] <<< [apiv2][status] GET https://api.github.com/user 200
+[debug] [2023-09-03T13:28:41.469Z] <<< [apiv2][body] GET https://api.github.com/user {"login":"himans-iitk","id":62837922,"node_id":"MDQ6VXNlcjYyODM3OTIy","avatar_url":"https://avatars.githubusercontent.com/u/62837922?v=4","gravatar_id":"","url":"https://api.github.com/users/himans-iitk","html_url":"https://github.com/himans-iitk","followers_url":"https://api.github.com/users/himans-iitk/followers","following_url":"https://api.github.com/users/himans-iitk/following{/other_user}","gists_url":"https://api.github.com/users/himans-iitk/gists{/gist_id}","starred_url":"https://api.github.com/users/himans-iitk/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/himans-iitk/subscriptions","organizations_url":"https://api.github.com/users/himans-iitk/orgs","repos_url":"https://api.github.com/users/himans-iitk/repos","events_url":"https://api.github.com/users/himans-iitk/events{/privacy}","received_events_url":"https://api.github.com/users/himans-iitk/received_events","type":"User","site_admin":false,"name":null,"company":null,"blog":"","location":null,"email":null,"hireable":null,"bio":null,"twitter_username":null,"public_repos":31,"public_gists":0,"followers":0,"following":0,"created_at":"2020-03-29T12:18:06Z","updated_at":"2023-09-01T06:48:04Z","private_gists":0,"total_private_repos":0,"owned_private_repos":0,"disk_usage":59456,"collaborators":0,"two_factor_authentication":false,"plan":{"name":"free","space":976562499,"collaborators":0,"private_repos":10000}}
+[info] 
+[info] +  Success! Logged into GitHub as himans-iitk 
+[info] 
